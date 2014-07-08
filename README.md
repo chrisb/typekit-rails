@@ -1,4 +1,4 @@
-# Typekit for Rails [![Gem Version](http://img.shields.io/gem/v/typekit.svg)](https://rubygems.org/gems/typekit-rails)
+# Typekit for Rails [![Gem Version](http://img.shields.io/gem/v/typekit-rails.svg)](https://rubygems.org/gems/typekit-rails)
 
 Adds a Typekit helper to your Rails application and uses [some best practices](http://www.hagenburger.net/BLOG/A-Better-Typekit-Integration.html) for the integration.
 
