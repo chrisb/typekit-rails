@@ -1,0 +1,1 @@
+require 'typekit_rails'
