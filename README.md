@@ -7,7 +7,7 @@ Adds a Typekit helper to your Rails application and uses [some best practices](h
 In your `Gemfile` just add:
 
 ```ruby
-gem 'typekit'
+gem 'typekit-rails'
 ```
 
 #### Use the Generator
