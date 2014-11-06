@@ -15,7 +15,7 @@ gem 'typekit-rails'
 Run the generator which will prompt you for your kit ID.
 
 ```
-rails g typekit:install`
+rails g typekit:install
 ```
 
 #### Pro Usage
