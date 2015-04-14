@@ -30,7 +30,7 @@ module Typekit
         api_key = '- YOUR KIT ID HERE -' if api_key.blank?
 
         layout_templates = { slim: { content: "  = typekit '#{api_key}'", after: "head\n" }}
-        layout_templates[:erb] =   { content: "  <%#{layout_templates[:slim][:content]} %>", after: "<head>\n" }
+        layout_templates[:erb] =   { content: "  <%#{layout_templates[:slim][:content].lstrip} %>", after: "<head>\n" }
 
         layout_templates.each_pair do |lang,options|
           path = ::File.join(destination_root, "#{application_layout_path_prefix}.#{lang}")
